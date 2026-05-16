@@ -23,7 +23,7 @@ installed docs:
 
 ```bash
 # Find the docs directory
-npm root -g  # → <dir>/@mariozechner/pi-coding-agent/docs/
+npm root -g  # → <dir>/@earendil-works/pi-coding-agent/docs/
 ```
 
 Key documents: `extensions.md`, `skills.md`, `themes.md`, `packages.md`.

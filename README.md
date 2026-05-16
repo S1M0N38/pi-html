@@ -61,7 +61,7 @@ TypeScript modules that extend pi's behavior. Capabilities include:
 - **CLI flags** — add custom command-line options
 
 ```typescript
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { Type } from "typebox";
 
 export default function (pi: ExtensionAPI) {
@@ -217,7 +217,7 @@ npm publish
 
 ## Key Concepts
 
-- **`peerDependencies`** — Pi core packages (`@mariozechner/pi-ai`, `@mariozechner/pi-coding-agent`, `@mariozechner/pi-tui`, `typebox`) must be listed as peer dependencies with `"*"` range. They are provided by pi at runtime.
+- **`peerDependencies`** — Pi core packages (`@earendil-works/pi-ai`, `@earendil-works/pi-coding-agent`, `@earendil-works/pi-tui`, `typebox`) must be listed as peer dependencies with `"*"` range. They are provided by pi at runtime.
 - **`pi` manifest** — The `pi` key in `package.json` tells pi which directories contain resources.
 - **`keywords`** — Include `"pi-package"` so your package appears in the [pi package gallery](https://pi.dev/packages).
 - **`files`** — Controls what's included in the npm tarball. Only list your resource directories and docs.

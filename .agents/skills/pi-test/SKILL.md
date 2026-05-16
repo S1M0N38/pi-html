@@ -15,7 +15,7 @@ allowed-tools: Bash read edit write
 
 # Pi Package TUI Testing with Pilotty
 
-This skill guides you through testing TUI components built with `@mariozechner/pi-tui` inside a pi package. Pilotty provides PTY-based terminal automation — it spawns terminal applications in background sessions, captures screen state as structured data, and sends keyboard/mouse input programmatically.
+This skill guides you through testing TUI components built with `@earendil-works/pi-tui` inside a pi package. Pilotty provides PTY-based terminal automation — it spawns terminal applications in background sessions, captures screen state as structured data, and sends keyboard/mouse input programmatically.
 
 ## Why Pilotty for Pi TUI Testing
 

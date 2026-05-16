@@ -23,7 +23,7 @@ tsconfig.json          # Type checking only (noEmit)
 ### Key Constraints
 
 - **No build step** — pi loads `.ts` via jiti. Never add a build/compile step.
-- **Peer dependencies** — `@mariozechner/pi-ai`, `@mariozechner/pi-coding-agent`, `@mariozechner/pi-tui`, `@mariozechner/pi-agent-core`, `typebox` are provided by pi at runtime. List them as `peerDependencies` with `"*"` range. Do not bundle them.
+- **Peer dependencies** — `@earendil-works/pi-ai`, `@earendil-works/pi-coding-agent`, `@earendil-works/pi-tui`, `@earendil-works/pi-agent-core`, `typebox` are provided by pi at runtime. List them as `peerDependencies` with `"*"` range. Do not bundle them.
 - **2-space indentation** — Enforced by biome.
 - **Themes require all 51 color tokens** — See `themes/template.json` for the full list.
 
@@ -164,10 +164,10 @@ Clarify what the user needs:
 - Are there runtime dependencies (npm packages)?
 
 Read the relevant pi docs before implementing:
-- Extensions: `~/.local/share/npm/lib/node_modules/@mariozechner/pi-coding-agent/docs/extensions.md`
-- Skills: `~/.local/share/npm/lib/node_modules/@mariozechner/pi-coding-agent/docs/skills.md`
-- Themes: `~/.local/share/npm/lib/node_modules/@mariozechner/pi-coding-agent/docs/themes.md`
-- Packages: `~/.local/share/npm/lib/node_modules/@mariozechner/pi-coding-agent/docs/packages.md`
+- Extensions: `~/.local/share/npm/lib/node_modules/@earendil-works/pi-coding-agent/docs/extensions.md`
+- Skills: `~/.local/share/npm/lib/node_modules/@earendil-works/pi-coding-agent/docs/skills.md`
+- Themes: `~/.local/share/npm/lib/node_modules/@earendil-works/pi-coding-agent/docs/themes.md`
+- Packages: `~/.local/share/npm/lib/node_modules/@earendil-works/pi-coding-agent/docs/packages.md`
 
 ### Step 2: Implement
 
@@ -175,7 +175,7 @@ Write the code. Key patterns:
 
 **Extension** (`extensions/`):
 ```typescript
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { Type } from "typebox";
 
 export default function (pi: ExtensionAPI) {
@@ -277,7 +277,7 @@ Users update with: `pi update`
 ## Common Pitfalls
 
 - **Forgetting `typebox` schemas** — Tool parameters must use `Type.Object()` from `typebox`, not raw TypeScript types
-- **Importing from wrong package** — Use `import type { ExtensionAPI } from "@mariozechner/pi-coding-agent"` (type import)
+- **Importing from wrong package** — Use `import type { ExtensionAPI } from "@earendil-works/pi-coding-agent"` (type import)
 - **Missing `export default function`** — Extensions must export a default factory function
 - **Adding runtime deps as devDependencies** — Runtime npm packages go in `dependencies`, not `devDependencies`
 - **Incomplete themes** — Pi requires all 51 color tokens; partial themes cause errors

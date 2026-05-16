@@ -9,8 +9,8 @@
  * Remove or replace these with your own functionality.
  */
 
-import { DynamicBorder, type ExtensionAPI } from "@mariozechner/pi-coding-agent";
-import { Container, type SelectItem, SelectList, Text } from "@mariozechner/pi-tui";
+import { DynamicBorder, type ExtensionAPI } from "@earendil-works/pi-coding-agent";
+import { Container, type SelectItem, SelectList, Text } from "@earendil-works/pi-tui";
 import { Type } from "typebox";
 
 export default function (pi: ExtensionAPI) {
