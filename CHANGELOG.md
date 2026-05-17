@@ -5,6 +5,13 @@
 
 ### Features
 
+* pi-html package with /html command ([92855ec](https://github.com/S1M0N38/pi-html/commit/92855ec15662dbc5c4ff35f9965ba313634e8985))
+
+## 1.0.0 (2026-05-17)
+
+
+### Features
+
 * implement /html command to convert session markdown to HTML ([b8479b9](https://github.com/S1M0N38/pi-html/commit/b8479b9ac2e4ba9f5c53085a909cf6c1bcae340b))
 
 
