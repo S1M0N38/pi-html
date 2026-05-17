@@ -1,6 +1,6 @@
 # pi-html
 
-Convert your agent's markdown output to beautiful, self-contained HTML files.
+Turn your pi conversations into beautiful, self-contained HTML files.
 
 ## Install
 
@@ -26,7 +26,7 @@ pi -e npm:@s1m0n38/pi-html
 
 ## Usage
 
-Type `/html` in the pi agent TUI to convert all markdown documents from the current session into HTML and open them in your browser.
+Type `/html` in the pi agent TUI to convert the current conversation into HTML and open the files in your browser.
 
 Add refinements after the command:
 
@@ -38,10 +38,10 @@ Add refinements after the command:
 
 ## How it works
 
-1. Scans the session for markdown files written by the agent and substantial assistant explanations
-2. Sends a structured prompt to the LLM with the extracted content
+1. Extracts the full conversation from your session — user prompts, assistant explanations, and file writes
+2. Sends a structured prompt to the LLM with the conversation and a built-in design system
 3. The LLM generates self-contained HTML files in a temp directory
-4. Files are opened in your default browser
+4. Each file is opened in your default browser
 
 ## Uninstall
 
