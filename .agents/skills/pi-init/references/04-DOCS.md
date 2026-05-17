@@ -21,7 +21,7 @@ one (or keeps their original). The chosen tagline is used in README and
 ### Sections to keep and update
 
 - **Title and badges** — Replace `pi-package-template` with `<package>`,
-  replace `S1M0N38` with `<author>` in badge URLs. Update the tagline subtitle.
+  replace `s1m0n38` with `<author>` in badge URLs. Update the tagline subtitle.
 - **Installation** — Update package name references to `<package>`.
 
 ### Sections to replace with TODO markers

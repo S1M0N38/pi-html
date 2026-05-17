@@ -5,7 +5,7 @@ Convert your agent's markdown output to beautiful, self-contained HTML files.
 ## Install
 
 ```
-pi install @S1M0N38/pi-html
+pi install @s1m0n38/pi-html
 ```
 
 ## Usage
@@ -30,5 +30,5 @@ Add refinements after the command:
 ## Uninstall
 
 ```
-pi uninstall @S1M0N38/pi-html
+pi uninstall @s1m0n38/pi-html
 ```

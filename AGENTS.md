@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**@S1M0N38/pi-html** is a pi package that adds the `/html` command to the pi coding agent. The command extracts markdown documents from the current session (file writes and substantial assistant explanations) and sends a structured XML prompt to the LLM, which generates beautiful, self-contained HTML files using the design system from the [html-effectiveness](https://github.com/ThariqS/html-effectiveness) repo.
+**@s1m0n38/pi-html** is a pi package that adds the `/html` command to the pi coding agent. The command extracts markdown documents from the current session (file writes and substantial assistant explanations) and sends a structured XML prompt to the LLM, which generates beautiful, self-contained HTML files using the design system from the [html-effectiveness](https://github.com/ThariqS/html-effectiveness) repo.
 
 **Tech Stack:** TypeScript (no build step — pi loads `.ts` directly via jiti), typebox for schemas, biome for lint/format.
 

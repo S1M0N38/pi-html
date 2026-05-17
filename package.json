@@ -1,13 +1,13 @@
 {
-  "name": "@S1M0N38/pi-html",
+  "name": "@s1m0n38/pi-html",
   "version": "0.1.0",
   "description": "Convert agent markdown output to beautiful self-contained HTML",
   "type": "module",
   "license": "MIT",
-  "author": "S1M0N38",
+  "author": "s1m0n38",
   "repository": {
     "type": "git",
-    "url": "https://github.com/S1M0N38/pi-html"
+    "url": "https://github.com/s1m0n38/pi-html"
   },
   "keywords": [
     "pi-package",
