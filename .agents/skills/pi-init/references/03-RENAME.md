@@ -41,15 +41,15 @@ In **`package.json`**:
 |---|---|
 | `"name": "pi-package-template"` | `"name": "<package>"` |
 | `"description": "A minimal starter..."` | `"description": "<user-description>"` |
-| `"author": "S1M0N38"` | `"author": "<author>"` |
-| `"url": "...S1M0N38/pi-package-template"` | `"url": "...<author>/<package>"` |
+| `"author": "s1m0n38"` | `"author": "<author>"` |
+| `"url": "...s1m0n38/pi-package-template"` | `"url": "...<author>/<package>"` |
 
 In **`README.md`**:
 
 | Pattern | Replacement |
 |---|---|
 | `pi-package-template` | `<package>` |
-| `S1M0N38` | `<author>` |
+| `s1m0n38` | `<author>` |
 | Template-specific descriptions | `<user-description>` |
 
 In **`AGENTS.md`**:
@@ -57,7 +57,7 @@ In **`AGENTS.md`**:
 | Pattern | Replacement |
 |---|---|
 | `pi-package-template` (in project title/refs) | `<package>` |
-| `S1M0N38` | `<author>` |
+| `s1m0n38` | `<author>` |
 | Template-specific descriptions | Replace with user's context |
 
 In **`LICENSE`**:
@@ -87,9 +87,9 @@ Work through each file systematically.
 **Order matters** — replace longer strings before shorter ones to avoid
 partial matches:
 
-1. `S1M0N38/pi-package-template` → `<author>/<package>` (full URL first)
+1. `s1m0n38/pi-package-template` → `<author>/<package>` (full URL first)
 2. `pi-package-template` → `<package>` (package name)
-3. `S1M0N38` → `<author>` (username)
+3. `s1m0n38` → `<author>` (username)
 4. Template-specific descriptions → user descriptions
 
 ## 4. Verify
@@ -98,7 +98,7 @@ After all replacements, run a verification sweep:
 
 ```bash
 rg -l "pi-package-template" --glob '!.agents/**' --glob '!node_modules/**'
-rg -l "S1M0N38" --glob '!.agents/**' --glob '!node_modules/**'
+rg -l "s1m0n38" --glob '!.agents/**' --glob '!node_modules/**'
 ```
 
 - **No matches** → proceed to verify the build.

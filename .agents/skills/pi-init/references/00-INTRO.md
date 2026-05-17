@@ -18,7 +18,7 @@ This wizard will walk you through setting up your pi package project in
 |------|-------------|
 | **1. Metadata** | Extract your package name and GitHub username from the repository |
 | **2. Requirements** | Verify that Node.js, npm, pi, TypeScript, and Biome are installed |
-| **3. Rename** | Replace every template placeholder (`pi-package-template`, `S1M0N38`) with your package's actual name |
+| **3. Rename** | Replace every template placeholder (`pi-package-template`, `s1m0n38`) with your package's actual name |
 | **4. Docs** | Update README and AGENTS.md with your package description |
 
 Each step asks for your confirmation before making changes. You can interrupt

@@ -1,24 +1,22 @@
 {
-  "name": "pi-package-template",
-  "version": "1.2.0",
-  "description": "A minimal starter template for building pi packages",
+  "name": "@s1m0n38/pi-html",
+  "version": "1.0.0",
+  "description": "Convert agent markdown output to beautiful self-contained HTML",
   "type": "module",
   "license": "MIT",
-  "author": "S1M0N38",
+  "author": "s1m0n38",
   "repository": {
     "type": "git",
-    "url": "https://github.com/S1M0N38/pi-package-template"
+    "url": "https://github.com/S1M0N38/pi-html"
   },
   "keywords": [
     "pi-package",
     "pi",
-    "pi-coding-agent"
+    "pi-coding-agent",
+    "html"
   ],
   "files": [
     "extensions",
-    "skills",
-    "prompts",
-    "themes",
     "README.md",
     "CHANGELOG.md",
     "LICENSE",
@@ -37,28 +35,15 @@
   "pi": {
     "extensions": [
       "./extensions"
-    ],
-    "skills": [
-      "./skills"
-    ],
-    "prompts": [
-      "./prompts"
-    ],
-    "themes": [
-      "./themes"
     ]
   },
   "peerDependencies": {
-    "@mariozechner/pi-agent-core": "*",
-    "@mariozechner/pi-ai": "*",
-    "@mariozechner/pi-coding-agent": "*",
-    "@mariozechner/pi-tui": "*",
+    "@earendil-works/pi-coding-agent": "*",
     "typebox": "*"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.14",
-    "@mariozechner/pi-ai": "^0.70.0",
-    "@mariozechner/pi-coding-agent": "^0.70.0",
+    "@earendil-works/pi-coding-agent": "^0.74.0",
     "typebox": "^1.1.24",
     "typescript": "^5.0.0"
   }
