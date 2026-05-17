@@ -1,6 +1,6 @@
 {
   "name": "@S1M0N38/pi-html",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Convert agent markdown output to beautiful self-contained HTML",
   "type": "module",
   "license": "MIT",
